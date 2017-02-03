@@ -3,10 +3,12 @@
 }
 #p1{
 	background-color:#2980b9;
+	background-image:url('../img/bg.jpg');
 }
 
 #p3{
 	background-color:#d35400;
+	background-image:url('../img/bg.jpg');
 }
 h1{
 	font-size:25px;
