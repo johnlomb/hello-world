@@ -35,6 +35,9 @@ td, th{
 		background-size:300px auto;
 	}
 	td{
-		display:none;
+		display:block;
+	}
+	table{
+		width:100%
 	}
 }
