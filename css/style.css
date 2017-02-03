@@ -4,11 +4,13 @@
 #p1{
 	background-color:#2980b9;
 	background-image:url('../img/bg.jpg');
+	background-size:cover;
 }
 
 #p3{
 	background-color:#d35400;
 	background-image:url('../img/bg.jpg');
+	background-size:cover;
 }
 h1{
 	font-size:25px;
