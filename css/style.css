@@ -25,11 +25,12 @@ header {
 }
 
 table{
-    border-collapse: collapse;
+	border-collapse: collapse;
+	color:white;
 }
 
 td, th{
-    border: 1px solid black;
+	border: 1px solid white;
 }
 
 @media screen and (max-width: 500px){
