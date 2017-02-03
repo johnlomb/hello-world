@@ -1,3 +1,6 @@
+*{
+ font-size:16px;
+}
 #p1{
 	background-color:#2980b9;
 }
@@ -5,7 +8,9 @@
 #p3{
 	background-color:#d35400;
 }
-
+h1{
+	font-size:25px;
+}
 header { 
 	background-image:url('../img/logo-iut.jpg');
 	background-repeat: no-repeat;
