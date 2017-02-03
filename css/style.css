@@ -36,6 +36,7 @@ td, th{
 	}
 	td{
 		display:block;
+		text-align:center;
 	}
 	table{
 		width:100%
