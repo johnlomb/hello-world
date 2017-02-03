@@ -19,12 +19,11 @@ header {
 	height:300px;
 }
 
-table
-{
+table{
     border-collapse: collapse;
 }
-td, th
-{
+
+td, th{
     border: 1px solid black;
 }
 
@@ -32,9 +31,10 @@ td, th
 	#p3>img{
 		width:100%;
 	}
-header{
-	background-size:300px auto;
-}
-td{
-display:none;
+	header{
+		background-size:300px auto;
+	}
+	td{
+		display:none;
+	}
 }
