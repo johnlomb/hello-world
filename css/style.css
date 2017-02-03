@@ -9,6 +9,9 @@ body{
 	background-image:url('../img/bg.jpg');
 	background-size:cover;
 }
+#p2{
+	background-color:white;
+}
 #p3{
 	background-color:#d35400;
 
