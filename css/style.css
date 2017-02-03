@@ -19,7 +19,14 @@ header {
 	height:300px;
 }
 
-
+table
+{
+    border-collapse: collapse;
+}
+td, th
+{
+    border: 1px solid black;
+}
 
 @media screen and (max-width: 500px){
 	#p3>img{
