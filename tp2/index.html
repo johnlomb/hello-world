@@ -4,22 +4,24 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="mobileoptimized" content=0/>
-		<title></title>
+		<title>Lubeo Lexe Râ</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<header>
-			<img src="img/logo.png">
-			<ul>
-				<li><a href="#">Accueil</a></li>
-				<li><a href="#">La gemme d'outretombe</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-			<input type="search" placeholder="Entrez un mot-clef" name="the_search">
+		<header id="header">
+			<img src="img/logo.jpg">
+			<div id="menu">
+				<ul>
+					<li><a href="#header">Accueil</a></li>
+					<li><a href="#presentation">Presentation</a></li>
+					<li><a href="#ggform">Contact</a></li>
+				</ul>
+				<input type="search" placeholder="Entrez un mot-clef" name="the_search">
+			</div>
 		</header>
 
 		<div id="bandeau">
-			<img src="img/map.png">
+			<img src="img/necro.jpg">
 		</div>
 
 		<div id="presentation">
@@ -29,34 +31,34 @@
 		</div>
 		
 		<div id="contenu">
-			<div class="chapitre">
+			<div class="chapitre enf">
 				<img src="img/Lumelia.jpg">
 				<h3>Son Enfance</h3>
 				<p>Decouvrez ici l'enfance,jusqu'a la premier aventure de Lubeo</p>
 			</div>
-			<div class="chapitre">
+			<div class="chapitre ref">
 				<img src="img/reflets.jpg">
 				<h3>Les reflets brisés</h3>
 				<p>Decoouvrez l'aventure où Lubeo ce fera un compagnon important: Ludwig Schattenmann</p>
 			</div>
-			<div class="chapitre">
+			<div class="chapitre gem">
 				<img src="img/gemme.jpg">
 				<h3>La gemme d'outretombe</h3>
 				<p>Decouvrez l'aventure de Lubeo pour sauver son peuple en compagnie des frères Schattenmann </p>
 			</div>
-			<div class="chapitre">
+			<div class="chapitre des">
 				<img src="img/damne.jpg">
 				<h3>Le destin damné</h3>
 				<p>a venir...</p>
 			</div>
 		</div>
 		<div id="ggform">
-			<div class="googlemap">
+			<div class="gg googlemap">
 				<h2>Lieu de creation du personnage</h2>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.8761600171742!2d1.8404214514901929!3d50.94450325942269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f11ca37058b%3A0x7ac7712099bdd19a!2sRue+Hoche%2C+62100+Calais!5e0!3m2!1sfr!2sfr!4v1486715643633" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 
-			<div class="formulaire">
+			<div class="gg formulaire">
 				<h2>Contactez nous</h2>
 				<form method="post" action="">
    					<p>
@@ -71,14 +73,14 @@
 						<input type="file" name="image" id="recimage" placeholder="Photo" accept="image/*" capture />
 						<br/>
 						<input type="textarea" name="Message" id="message" placeholder="Message" />
-	
+						<input type="button" name="Envoyer" id="envoyer" value="Envoyer"/>
    					</p>
 				</form>
 			</div>
 		</div>
 		
 		<footer>
-
+	<p>Lombard Jonathan TPA</p>
 		</footer>
 	</body>
 </html>
