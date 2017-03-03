@@ -27,6 +27,9 @@ border-right:1px solid black;
 padding-right: 5px;
 
 }
+#header a img{
+display:none;
+}
 .gg{
 display:inline-block;
 
@@ -88,7 +91,9 @@ text-align:right;
     font-style: normal;
 
 }
-
+.googlemap iframe{
+width:98%;
+}
 
 @media screen and (max-width: 800px){
 .chapitre{
@@ -131,5 +136,8 @@ text-align:center;
 header ul{
 padding:0;
 }
-
+#header a img{
+display:block;
+padding-left:130px;
+}
 }
