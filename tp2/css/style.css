@@ -1,4 +1,4 @@
-*{
+body{
 font-family:'beckerregular';
 letter-spacing:1px;
 background-color:#25CBEC;
@@ -7,13 +7,15 @@ background-color:#25CBEC;
 
 header img{
 width:100px;
-float:left;
+
 }
 
 header *{
 display:inline-block;
 }
-
+#menuphone{
+display:none;
+}
 h1,h2,h3{
  font-family: 'jsmath-eufm10eufm10';
 }
@@ -69,11 +71,13 @@ padding-top:10px;
 
 .chapitre img{
 height:240px;
+max-width:100%;
 }
+
 footer{
 text-align:right;
-
 }
+
 @font-face {
     font-family: 'jsmath-eufm10eufm10';
     src: url('fonts/jsmath-eufm10-webfont.woff2') format('woff2'),
@@ -109,7 +113,12 @@ width:49%;
 width:100%;
 margin-top:5px;
 }
-
+.chapitre img{
+max-width:100%;
+}
+#menu input{
+text-align:center;
+}
 }
 
 
@@ -124,11 +133,12 @@ border:none;
 .formulaire{
 width:100%;
 }
-#menu input{
-text-align:center;
+#menu{
+display:none;
 }
 header img{
 float:none;
+
 }
 header{
 text-align:center;
@@ -140,4 +150,15 @@ padding:0;
 display:block;
 padding-left:130px;
 }
+.chapitre img{
+max-width:100%;
+}
+#menuphone {
+display:block;
+}
+#menuphone ul{
+display:none;
+}
+
+
 }
