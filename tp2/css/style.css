@@ -159,6 +159,8 @@ display:block;
 #menuphone ul{
 display:none;
 }
-
+#menuphone img{
+transition: transform 0.5s ease-in-out;
+}
 
 }
